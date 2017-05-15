@@ -1,0 +1,273 @@
+% Encoding: windows-1251
+
+@Article{utin2016,
+  author   = {Утин, Я. И.},
+  title    = {Цифровая перестройка},
+  journal  = {Iron Magazine},
+  year     = {2016},
+  volume   = {2},
+  number   = {12},
+  pages    = {18--23},
+  language = {russian},
+}
+
+@Electronic{industry40,
+  author       = {Хель, И. А.},
+  year         = {2015},
+  title        = {Индустрия 4.0: что такое четвёртая промышленная революция},
+  language     = {russian},
+  organization = {веб-портал Hi-News.ru},
+  url          = {https://hi-news.ru/business-analitics/industriya-4-0-chto-takoe-chetvertaya-promyshlennaya-revolyuciya.html},
+}
+
+@BOOK{brain2010,
+  author       = {Савельев, С. В.},
+  title        = {Возникновение мозга человека},
+  publisher    = {МЕДИ},
+  address      = {Москва},
+  year         = {2010},
+  language     = {russian},
+}
+
+@BOOK{brain2009,
+  title     = {Your Brain at Work: Strategies for Overcoming Distraction, Regaining Focus, and Working Smarter All Day Long},
+  publisher = {HarperCollins e-books},
+  year      = {2009},
+  author    = {David Rock},
+  edition   = {1},
+  isbn      = {978-0062312822},
+  language  = {english},
+}
+
+@BOOK{vapnik,
+  author       = {В. Н. Вапник and Т. Г. Глазкова and В. А. Кощеев},
+  title        = {Алгоритмы и программы восстановления зависимостей},
+  publisher    = {Наука},
+  address      = {Москва},
+  year         = {1984},
+  language     = {russian},
+}
+
+@BOOK{hford,
+  author       = {Генри Форд},
+  title        = {Моя жизнь, мои достижения},
+  publisher    = {АСТ},
+  address      = {Москва},
+  year         = {2015},
+  numpages		= {352},
+  language     = {russian},
+}
+
+@Booklet{mesexpl,
+  title   = {{MES} Explained: A High Level Vision},
+  author  = {Julie Frazer and Bill Hakanson and Tom Schaefer},
+  address = {MESA International},
+  year    = {1997},
+}
+
+@Book{mestetsky,
+  Title                    = {Математические методы распознавания образов},
+  Author                   = {Л. М. Местецкий},
+  Publisher                = {МГУ},
+  Year                     = {2004},
+  numpages		= {85},
+
+  Address                  = {Москва, ВМиК, кафедра <<Математические методы прогнозирования>>},
+   Language                 = {russian},
+}
+
+@article{herbin2007,
+title = "Development of a {PC}-based Open Architecture Software-{CNC} System",
+journal = "Chinese Journal of Aeronautics",
+volume = "20",
+pages = "272--281",
+year = "2007",
+issn = "2212-8271",
+author = "Ma Xiong-bo and Wang Yong-zhang",
+abstract = "As a key technology in the field of advanced manufacturing, an open architecture controller is studied. In order to develop an open architecture software-CNC system on personal computer (PC) according to open modular architecture controllers (OMAC). First, the software and hardware platform is chosen and software realization methodology for the CNC system is determined. Second, static modeling methods of an open architecture controller inclusive of object-oriented (OO) programming technology, dynamic link library (DLL) technology and system modules partition are investigated. Third, the dynamical behavioral modeling and the data flow representation of open architecture controller are discussed, which are both described in hierarchy finite state machine (FSM) model. Fourth, a reusable software module model is established to develop software function module library. Finally, a 3-axis milling machine tool test-bed, named for HIT-CNC, is successfully designed by means of the constructed software function module library and the system configuring method. The experimental results show that, besides increasing the degree of reusability and openness, application of above-mentioned methodology leads to significant decrease of development time as well as maintenance cost."
+}
+
+@article{yusof2015,
+title = "New Interpretation Module for Open Architecture Control based {CNC} Systems",
+journal = "Procedia {CIRP} ",
+volume = "26",
+number = "",
+pages = "729--734",
+year = "2015",
+note = "12th Global Conference on Sustainable Manufacturing",
+author = "Yusri Yusof and Kamran Latif",
+abstract = "CNC technology is the key technology of the machine tools, which are the base of industrial unit computerization. CNC machines are operated by controllers, each of which has a software module inside known as interpreter. The function of interpreter is to extract data from CAM system generated code and convert to controller motion commands. However, with the development of numerical control technology existing CNC systems are limited with the interpreter lacking in expansibility, modularity and openness. In order to overcome these problems open architecture control was introduced. In this paper, a conceptual module of new software system is presented. The developed system is able to
+interpret ISO 14649 and 6983 code and translate as per internal structure required by the CNC machine. It interprets position, feed rate, tool, spindle etc data and translates to CNC machine. At the mean time it is also able to generate output in text and XML files as per user defined file structure."
+}
+
+@article{correa2016,
+title = "Implementation of an Open-Architecture Control for {CNC} Systems Based on Open-Source Electronics",
+journal = "Procedia {CIRP} ",
+volume = "2",
+number = "",
+year = "2016",
+note = "ASME 2016 International Mechanical Engineering Congress and Exposition",
+author = "Jorge Correa and Nicolas Toombs and Placid M. Ferreira",
+abstract = "Open control architectures have many advantages including increased computational resources and flexibility of reconfiguration of new manufacturing units. This paper proposes an open architecture for the control of CNC systems based on open source electronics. The software architecture in this paper is a component-based approach where each component has an independent finite state machine (FSM) model. The hardware architecture is a multiprocessor distributed controller, with different levels of processing, and adaptable for different hardware specifications. A discussion of the basic control algorithms, with examples of implementation to the open source platform Arduino, is presented as part of the methodology. Other results in this paper include the preliminary test of the control to a two-axis CNC stage and a mathematical model of the control-loop in Simulink. The architecture in this paper has the potential of transforming CNC in open source electronics from device-oriented systems to systems where users can design their controls for special purpose machines."
+}
+
+@article{gupta2012,
+title = "Black Box for Machine Tools; Based on Open {CNC} Architecture Control Systems",
+journal = "International Journal on Control System and Instrumentation",
+volume = "3",
+year = "2012",
+author = "Atul Gupta and Venu U. Srinivasa",
+abstract = "Most computer numerical control (CNC) systems are closed for users. Engineers typically can only program the machine, nothing more. it cannot be freely modified by the user. The introduction of open architecture philosophy propitiated the evolution of a new generation of numeric controllers. This brought the conventional CNC technology to the standard PC microcomputer. As a consequence, the characteristics of the CNC (positioning) and the micro computer (easy of programming, system configuration, network communication etc) are combined. There are also a number of commercially available OAC (Open Architecture controllers) (e.g. MDSI, Fanuc, Okuma, Siemens). There are also a number of efforts at developing OAC standards [1- 4]. This paper uses Siemens [5] OAC to build the unique BlackBox for machine tool industry. This new technology in machine tool industry helps us in understanding the cause of crash or malfunctioning of machine or machine health by means of debugging the critical machine data such as Spindle Speed, Axis positions, Feed rates, Type of Tool used etc which are facilitated by this application just before the crash and same can be accessed remotely via Internet/Ethernet. This application is successfully intergraded and tested with actual Machine."
+}
+
+@article{saputra2014,
+title = "Distributed Control System Design for Portable PC Based {CNC} Machine",
+journal = "Mechatronics, Electrical Power and Vehicular Technology",
+volume = "5",
+number = "",
+pages = "37--44",
+year = "2014",
+issn = "2088-6985",
+author = "Roni P. Saputra and Tinton D. Atmaja and Budi Prawara",
+abstract = "The demand on automated machining has been increased and emerges improvement research to achieve many goals such as portability, low cost manufacturability, interoperability, and simplicity in machine usage. These improvements are conducted without ignoring the performance analysis and usability evaluation. This research has designed a distributed control system in purpose to control a portable CNC machine. The design consists of main processing unit, secondary processing unit, motor control, and motor driver. A preliminary simulation has been conducted for performance analysis including linear accuracy and circular accuracy. The results achieved in the simulation provide linear accuracy up to 2 ?m with total cost for the whole processing unit is up to 5 million IDR."
+}
+
+@article{colombo2003,
+title = "Formal specification of holonic control system {ADACOR} product holon, using high-level {P}etri nets",
+journal = "IEEE International Conference on Industrial Informatics, 2003. INDIN 2003. Proceedings.",
+number = "",
+year = "2003",
+issn = "2088-6985",
+author = "Paulo Leitao and Armando W. Colombo and Francisco Restivo and Roland Schoop",
+abstract = "Holonic manufacturing and multi-agent paradigms are suitable to support the actual challenges of flexible manufacturing systems, due to their decentralisation, modularity and autonomy features. The formal specification assumes a critical role in order to understand and synthesise those complex systems. The Petri nets formalism is adequate to model and validate the dynamic behaviour, but present weak points when the system contains many instances of the same component, since the model grows (structure and components) in a non-controllable manner. The use of high-level Petri nets, allows to reduce this complexity, by compressing the representation of states, actions and events, to overcome the identified limitations and to support more complex and bigger coordination scenarios. We present a formal specification of the ADACOR product holons using high-level Petri nets and the associated formal validation of the model."
+}
+
+@article{zhang2014,
+title = "An architecture model of cloud manufacturing based on Multi-agent technology",
+journal = "The 26th Chinese Control and Decision Conference (2014 {CCDC})",
+volume = "1",
+number = "",
+pages = "3725--3729",
+year = "2014",
+issn = "2088-6985",
+author = "Han Zhang, Ruifeng Guo, Cong Geng",
+abstract = "The concept of cloud manufacture has been purposed to solve the problem of manufacture waste. Characteristics and operating mechanism of CMfg is analyzed in this paper. Fuzziness and distributive of the Multi-agent system can meet the requirements of building CMfg platform. On the basis of the theory mentioned above, this paper proposed an architecture of CMfg based on multi-agent technology. At last, the communication between the agents in the system was researched and designed. The introduction of multi-agent technology not only provides a feasible method of building CMfg platform system, but also helps to lucubrate the architecture of CMfg."
+}
+
+@article{morales2010,
+title = "Open-architecture system based on a reconfigurable hardware–software multi-agent platform for {CNC} machines",
+journal = "Journal of Systems Architecture",
+volume = "56",
+number = "",
+pages = "407--418",
+year = "2010",
+author = "Luis Morales-Velazquez and Rene J. Romero-Troncoso and Roque A. Osornio-Rios",
+abstract = "New generation of manufacturing systems endows their intelligence and reconfigurability to the computerized numerical controller (CNC) machines. This paper presents an open-architecture platform based on multi-agent hardware–software units, by developing a novel Multi-Agent Distributed CONtroller (MADCON) system. This system intends to fulfill the requirements of reconfigurability for the next generation of intelligent machines. The design of intelligent drives for this system follows a hardware–software co-design approach using a simple and intuitive structure. The hardware units of the proposed system integrate control and monitoring functions providing an FPGA-based open architecture for reconfigurable applications. On the other hand, software components were developed utilizing the XML structure for system description files, gathering features like a flowchart descriptive language and a graphic user-interface. MADCON was applied to a retrofitted to CNC lathe for control and monitoring in order to validate the proposed architecture towards the development of new generation intelligent manufacturing systems."
+}
+
+@Book{wang2009,
+  Title                    = {Collaborative Design and Planning for Digital Manufacturing},
+  Author                   = {Lihui Wang and Andrew Y. C. Nee},
+  Publisher                = {Springer-Verlag London},
+  Year                     = {2009},
+  numpages		= {413},
+  isbn      = {978-1-84882-286-3},
+
+   Language                 = {english},
+}
+
+@article{leitao2008,
+title = "Implementation of a Holonic Control System in a Flexible Manufacturing System",
+journal = "{IEEE} Transactions on systems, man and cybernetics",
+volume = "38",
+number = "5",
+pages = "699--709",
+year = "2008",
+author = "Paulo Leitao and Francisco J. Restivo",
+abstract = "Answering to the need to have innovative manufacturing control systems tailored to the current economical, technological, and customer trends, where dynamic and volatile environments prevail, adaptive holonic control architecture (ADACOR) aims to increase the agility and reconfigurability of the production system, contributing for the improvement of the enterprise competitiveness when it works in dynamic and volatile environments. The paper describes the implementation and experimental validation of an ADACOR-based holonic manufacturing control system in a real flexible manufacturing system, using multiagent systems technology. The results extracted from a set of experimental tests allowed to verify the correctness, applicability, and merits of the ADACOR concepts and also contribute to prove the applicability of multiagent systems in industrial environments."
+}
+
+@Book{dorfman2006,
+  Title                    = {Системная традиция: теория холомности и холон},
+  Author                   = {Л. Я. Дорфман},
+  Publisher                = {Алетейя},
+  Year                     = {2006},
+  pages		= {52--54},
+  address = {СПб},
+
+   Language                 = {russian},
+}
+
+@Book{jahne2005,
+  Title                    = {Digital Image Processing},
+  Author                   = {Bernd Jahne},
+  Publisher                = {Springer-Verlag Berlin Heidelberg},
+  Year                     = {2005},
+  numpages		= {608},
+  isbn      = {978-3-540-24035-8},
+
+   Language                 = {english},
+}
+
+@Book{gonzalez2007,
+  Title                    = {Digital Image Processing},
+  Author                   = {Rafael C. Gonzalez and Richard E. Woods},
+  Publisher                = {Pearson},
+  Year                     = {2007},
+  numpages		= {976},
+  isbn      = {978-0131687288},
+
+   Language                 = {english},
+}
+
+@article{ballard1981,
+title = "Generalizing the {H}ough transform to detect arbitary shapes",
+journal = "Pattern regognition",
+volume = "13",
+number = "2",
+pages = "111--122",
+year = "1981",
+author = "Dana H. Ballard",
+}
+
+@Article{andreev2014,
+  author   = {Андреев, А. Ю. and Бобков, С. П.},
+  title    = {Сегментация символов в изображении модифицированных методом жука},
+  journal  = {Инженерно-технические науки},
+  year     = {2014},
+  volume   = {1},
+  number   = {37},
+  pages    = {85--88},
+  language = {russian},
+}
+
+@Article{sokolov2013,
+  author   = {Соколов, Е. А.},
+  title    = {Семинары по линейным классификаторам, глава 5: {Я}дра и их применение в машинном обучении},
+  journal  = {ВМК МГУ},
+  year     = {2013},
+  pages    = {1--9},
+  language = {russian},
+}
+
+@Book{padun2014,
+  Title                    = {Методы поиска технических решений},
+  Author                   = {Падун, Б. С.},
+  Publisher                = {СПбНИУ ИТМО},
+  Year                     = {2014},
+  pages		= {37--48},
+  address = {СПб},
+
+   Language                 = {russian},
+}
+
+@Standard{gost20999,
+  title        = {ГОСТ 20999-83 {У}стройства числового программного управления для металлообрабатывающего оборудования},
+  organization = {Государственный комитет СССР по стандартам},
+  institution  = {Министерство приборостроения, средств автоматизации и систем управления},
+  author       = {Ю. И. Новиков and Г. Я. Громова},
+  language     = {russian},
+  year         = {1983},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

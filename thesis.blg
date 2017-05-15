@@ -1,0 +1,23 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
+The style file: gost2008.bst
+"ï" can't start a style-file command---line 1 of file gost2008.bst
+ : 
+ : ï»¿%%
+(Error may have been on previous line)
+Database file #1: biblio.bib
+I was expecting a `,' or a `}'---line 24 of file biblio.bib
+ : 
+ : @BOOK{brain2010,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--entry type for "gost20999" isn't style-file defined
+--line 265 of file biblio.bib
+Warning--entry type for "iso6983" isn't style-file defined
+--line 274 of file biblio.bib
+You're missing a field name---line 328 of file biblio.bib
+ : year = "2012",
+ :               ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "sift2004" isn't style-file defined
+--line 383 of file biblio.bib
+(There were 3 error messages)

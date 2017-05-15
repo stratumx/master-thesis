@@ -1,0 +1,123 @@
+\chapter{Текст программы определения метки}
+\label{app:a}
+
+\begin{lstlisting}[
+    language=python,showstringspaces=false,basicstyle=\ttfamily\small, 
+    keywordstyle=\color{blue}\ttfamily, stringstyle=\color{red}\ttfamily,
+    numbers=left,numberstyle=\footnotesize,numbersep=5pt,frame=tb,
+    caption={Программа определения метки на заготовке}
+]
+# подключение модулей
+import numpy as np
+import argparse
+import sys, cv2 as cv
+import serial
+
+def imgProcess(img): # обработка кадра
+    porog_value = 185
+    
+    # полутоновый вид
+    gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY) 
+    gray = cv.GaussianBlur(gray, (7, 7), 1.5)   
+    
+    # градиентный фильтр
+    gradX = cv.Sobel(gray, ddepth = cv.CV_32F, dx = 1, dy = 0, 
+    	ksize = -1)
+    gradY = cv.Sobel(gray, ddepth = cv.CV_32F, dx = 0, dy = 1, 
+    	ksize = -1)
+ 
+    gradient = cv.subtract(gradX, gradY)
+    gradient = cv.convertScaleAbs(gradient)
+
+    blurred = cv.blur(gradient, (9, 9))
+    (_, thresh) = cv.threshold(blurred, porog_value, 255, 
+    	cv.THRESH_BINARY)
+
+    # анализ контуров
+    (cnts, _) = cv.findContours(thresh.copy(), 
+    	cv.RETR_EXTERNAL, cv.CHAIN_APPROX_SIMPLE)
+
+    return cnts
+
+def centerOfImage(img): # центр кадра
+    cntrOfImg = [0,0]
+    width = img.shape[0]
+    height = img.shape[1]
+    cntrOfImg[0] = int(width / 2)
+    cntrOfImg[1] = int(height / 2)
+    return cntrOfImg
+
+def moving(labelCenter):
+    center = centerOfImage(img)
+    
+    ser = serial.Serial(
+        port='/dev/ttyUSB1', # порт связи с контроллером
+        baudrate=9600,
+        parity=serial.PARITY_ODD,
+        stopbits=serial.STOPBITS_TWO,
+        bytesize=serial.SEVENBITS
+    )
+
+    ser.isOpen()
+
+    if labelCenter[0] < center[0]: # сдвиг по Х
+        while labelCenter[0] != center[0]:
+            ser.write('e') # вправо
+        ser.write('r')
+    elif labelCenter[0] > center[0]:
+        while labelCenter[0] != center[0]:
+            ser.write('q') # влево
+        ser.write('w')
+
+    if labelCenter[1] < center[1]: #сдвиг по Y
+        while labelCenter[1] != center[1]:
+            ser.write('t') # вверх
+        ser.write('y')
+    elif labelCenter[1] > center[1]:
+        while labelCenter[1] != center[1]:
+            ser.write('u') # вниз
+        ser.write('i')
+
+    ser.write('o') # старт
+    
+    ser.close()
+
+ 
+cap = cv.VideoCapture(0)    
+
+#frameCount = 0
+
+while True:
+    ok, img = cap.read() #приём на вход кадра
+    if not ok:
+        break
+
+    cnts = imgProcess(img)
+
+    c = []
+    if (len(cnts) != 0):
+        c = sorted(cnts, key = cv.contourArea, 
+        	reverse = True)[0]
+        
+        # построение рамки
+        x,y,w,h = cv.boundingRect(c)
+        
+        # если стороны равны, то зелёный, иначе красный
+        if (w/h <= 1.05) and (w/h >= 0.95):
+            cv.rectangle(img,(x,y),(x+w,y+h),(0,255,0),2)
+        else:
+            cv.rectangle(img,(x,y),(x+w,y+h),(0,0,255),2)
+            
+	# центральная точка
+        centerpoint = (x+w/2, y+h/2)
+        radius = 1
+        cv.circle(img,centerpoint,radius,(255,255,255),2)
+        
+        
+    cv.imshow("image", img)
+
+    if cv.waitKey(30) > 0:
+        break
+
+
+\end{lstlisting}

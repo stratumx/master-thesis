@@ -1,0 +1,29 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.17)  25 APR 2017 16:11
+entering extended mode
+**C:/Users/stratumx/Desktop/СѓС‡РµР±Р°/РЅРёСЂ/latex/doc/latex/disser/templates/
+specialist/3.tex
+
+(C:/Users/stratumx/Desktop/СѓС‡РµР±Р°/РЅРёСЂ/latex/doc/latex/disser/templates/s
+pecialist/3.tex
+LaTeX2e <2015/01/01> patch level 2
+Babel <3.9m> and hyphenation patterns for 2 languages loaded.
+! Undefined control sequence.
+l.1 \chapter
+            {Состав и техническое описание разрабатываемого компонента машин...
+
+? 
+! Emergency stop.
+l.1 \chapter
+            {Состав и техническое описание разрабатываемого компонента машин...
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 7 strings out of 495071
+ 321 string characters out of 3180723
+ 48654 words of memory out of 3000000
+ 3345 multiletter control sequences out of 15000+200000
+ 3640 words of font info for 14 fonts, out of 3000000 for 9000
+ 198 hyphenation exceptions out of 8191
+ 5i,0n,1p,181b,8s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!

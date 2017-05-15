@@ -1,0 +1,344 @@
+\begin{thebibliography}{10}
+\def\selectlanguageifdefined#1{
+\expandafter\ifx\csname date#1\endcsname\relax
+\else\selectlanguage{#1}\fi}
+\providecommand*{\href}[2]{{\small #2}}
+\providecommand*{\url}[1]{{\small #1}}
+\providecommand*{\BibUrl}[1]{\url{#1}}
+\providecommand{\BibAnnote}[1]{}
+\providecommand*{\BibEmph}[1]{#1}
+\ProvideTextCommandDefault{\cyrdash}{\hbox to.8em{--\hss--}}
+\providecommand*{\BibDash}{\ifdim\lastskip>0pt\unskip\nobreak\hskip.2em\fi
+\cyrdash\hskip.2em\ignorespaces}
+
+\bibitem{utin2016}
+\selectlanguageifdefined{russian}
+\BibEmph{Утин~Я.~И.} Цифровая перестройка~// \BibEmph{Iron Magazine}. \BibDash
+\newblock 2016. \BibDash
+\newblock \CYRT.~2, {\cyr\textnumero}~12. \BibDash
+\newblock {\cyr\CYRS.}~18--23.
+
+\bibitem{industry40}
+\selectlanguageifdefined{english}
+\BibEmph{Hermann~Mario, Pentek~Tobias, Otto~Boris}. Design principles for
+  {I}ndustrie 4.0 scenarios~// \BibEmph{System Sciences ({HICSS}), 2016 49th
+  {H}awaii {I}nternational Conference}. \BibDash
+\newblock 2015. \BibDash
+\newblock Vol.~1. \BibDash
+\newblock P.~3928--3937.
+
+\bibitem{hford}
+\selectlanguageifdefined{russian}
+\BibEmph{Форд~Генри}. Моя жизнь, мои достижения. \BibDash
+\newblock Москва~: АСТ, 2015. \BibDash
+\newblock 352~{\cyr\cyrs.}
+
+\bibitem{mesexpl}
+\selectlanguageifdefined{english}
+\BibEmph{Frazer~Julie, Hakanson~Bill, Schaefer~Tom}. {MES} explained: A high
+  level vision. \BibDash
+\newblock MESA International, 1997.
+
+\bibitem{herbin2007}
+\selectlanguageifdefined{english}
+\BibEmph{Xiong-bo~Ma, Yong-zhang~Wang}. Development of a {PC}-based open
+  architecture software-{CNC} system~// \BibEmph{Chinese Journal of
+  Aeronautics}. \BibDash
+\newblock 2007. \BibDash
+\newblock Vol.~20. \BibDash
+\newblock P.~272--281.
+
+\bibitem{yusof2015}
+\selectlanguageifdefined{english}
+\BibEmph{Yusof~Yusri, Latif~Kamran}. New interpretation module for open
+  architecture control based {CNC} systems~// \BibEmph{Procedia {CIRP}}.
+  \BibDash
+\newblock 2015. \BibDash
+\newblock Vol.~26. \BibDash
+\newblock P.~729--734. \BibDash
+\newblock 12th Global Conference on Sustainable Manufacturing.
+
+\bibitem{correa2016}
+\selectlanguageifdefined{english}
+\BibEmph{Correa~Jorge, Toombs~Nicolas, Ferreira~Placid~M.} Implementation of an
+  open-architecture control for {CNC} systems based on open-source
+  electronics~// \BibEmph{Procedia {CIRP}}. \BibDash
+\newblock 2016. \BibDash
+\newblock Vol.~2. \BibDash
+\newblock ASME 2016 International Mechanical Engineering Congress and
+  Exposition.
+
+\bibitem{gupta2012}
+\selectlanguageifdefined{english}
+\BibEmph{Gupta~Atul, Srinivasa~Venu~U.} Black box for machine tools; based on
+  open {CNC} architecture control systems~// \BibEmph{International Journal on
+  Control System and Instrumentation}. \BibDash
+\newblock 2012. \BibDash
+\newblock Vol.~3.
+
+\bibitem{saputra2014}
+\selectlanguageifdefined{english}
+\BibEmph{Saputra~Roni~P., Atmaja~Tinton~D., Prawara~Budi}. Distributed control
+  system design for portable pc based {CNC} machine~// \BibEmph{Mechatronics,
+  Electrical Power and Vehicular Technology}. \BibDash
+\newblock 2014. \BibDash
+\newblock Vol.~5. \BibDash
+\newblock P.~37--44.
+
+\bibitem{colombo2003}
+\selectlanguageifdefined{english}
+Formal specification of holonic control system {ADACOR} product holon, using
+  high-level {P}etri nets~/ Paulo~Leitao, Armando~W.~Colombo,
+  Francisco~Restivo, Roland~Schoop~// \BibEmph{IEEE International Conference on
+  Industrial Informatics, 2003. INDIN 2003. Proceedings.} \BibDash
+\newblock 2003.
+
+\bibitem{zhang2014}
+\selectlanguageifdefined{english}
+\BibEmph{Han~Zhang~Ruifeng~Guo~Cong~Geng}. An architecture model of cloud
+  manufacturing based on multi-agent technology~// \BibEmph{The 26th Chinese
+  Control and Decision Conference (2014 {CCDC})}. \BibDash
+\newblock 2014. \BibDash
+\newblock Vol.~1. \BibDash
+\newblock P.~3725--3729.
+
+\bibitem{morales2010}
+\selectlanguageifdefined{english}
+\BibEmph{Morales-Velazquez~Luis, Romero-Troncoso~Rene~J.,
+  Osornio-Rios~Roque~A.} Open-architecture system based on a reconfigurable
+  hardware–software multi-agent platform for {CNC} machines~// \BibEmph{Journal
+  of Systems Architecture}. \BibDash
+\newblock 2010. \BibDash
+\newblock Vol.~56. \BibDash
+\newblock P.~407--418.
+
+\bibitem{wang2009}
+\selectlanguageifdefined{english}
+\BibEmph{Wang~Lihui, Nee~Andrew Y.~C.} Collaborative Design and Planning for
+  Digital Manufacturing. \BibDash
+\newblock Springer-Verlag London, 2009. \BibDash
+\newblock 413~p. \BibDash
+\newblock
+  ISBN:~\href{http://isbndb.com/search-all.html?kw=978-1-84882-286-3}{978-1-84882-286-3}.
+
+\bibitem{dorfman2006}
+\selectlanguageifdefined{russian}
+\BibEmph{Дорфман~Л.~Я.} Системная традиция: теория холомности и холон. \BibDash
+\newblock СПб~: Алетейя, 2006. \BibDash
+\newblock {\cyr\CYRS.}~52--54.
+
+\bibitem{leitao2008}
+\selectlanguageifdefined{english}
+\BibEmph{Leitao~Paulo, Restivo~Francisco~J.} Implementation of a holonic
+  control system in a flexible manufacturing system~// \BibEmph{{IEEE}
+  Transactions on systems, man and cybernetics}. \BibDash
+\newblock 2008. \BibDash
+\newblock Vol.~38, no.~5. \BibDash
+\newblock P.~699--709.
+
+\bibitem{brain2010}
+\selectlanguageifdefined{russian}
+\BibEmph{Савельев~С.~В.} Возникновение мозга человека. \BibDash
+\newblock Москва~: МЕДИ, 2010.
+
+\bibitem{brain2009}
+\selectlanguageifdefined{english}
+\BibEmph{Rock~David}. Your Brain at Work: Strategies for Overcoming
+  Distraction, Regaining Focus, and Working Smarter All Day Long. \BibDash
+\newblock 1 edition. \BibDash
+\newblock HarperCollins e-books, 2009. \BibDash
+\newblock
+  ISBN:~\href{http://isbndb.com/search-all.html?kw=978-0062312822}{978-0062312822}.
+
+\bibitem{vapnik}
+\selectlanguageifdefined{russian}
+\BibEmph{Вапник~В.~Н., Глазкова~Т.~Г., Кощеев~В.~А.} Алгоритмы и программы
+  восстановления зависимостей. \BibDash
+\newblock Москва~: Наука, 1984.
+
+\bibitem{padun2014}
+\selectlanguageifdefined{russian}
+\BibEmph{Падун~Б.~С.} Методы поиска технических решений. \BibDash
+\newblock СПб~: СПбНИУ ИТМО, 2014. \BibDash
+\newblock {\cyr\CYRS.}~37--48.
+
+\bibitem{mestetsky}
+\selectlanguageifdefined{russian}
+\BibEmph{Местецкий~Л.~М.} Математические методы распознавания образов. \BibDash
+\newblock Москва, ВМиК, кафедра <<Математические методы прогнозирования>>~:
+  МГУ, 2004. \BibDash
+\newblock 85~{\cyr\cyrs.}
+
+\bibitem{jahne2005}
+\selectlanguageifdefined{english}
+\BibEmph{Jahne~Bernd}. Digital Image Processing. \BibDash
+\newblock Springer-Verlag Berlin Heidelberg, 2005. \BibDash
+\newblock 608~p. \BibDash
+\newblock
+  ISBN:~\href{http://isbndb.com/search-all.html?kw=978-3-540-24035-8}{978-3-540-24035-8}.
+
+\bibitem{gonzalez2007}
+\selectlanguageifdefined{english}
+\BibEmph{Gonzalez~Rafael~C., Woods~Richard~E.} Digital Image Processing.
+  \BibDash
+\newblock Pearson, 2007. \BibDash
+\newblock 976~p. \BibDash
+\newblock
+  ISBN:~\href{http://isbndb.com/search-all.html?kw=978-0131687288}{978-0131687288}.
+
+\bibitem{fourier1988}
+\selectlanguageifdefined{english}
+\BibEmph{Brigham~E.~Oran}. The fast Fourier transform and its applications.
+  \BibDash
+\newblock Englewood Cliffs, N.J.: Prentice Hall, 1988. \BibDash
+\newblock 448~p. \BibDash
+\newblock
+  ISBN:~\href{http://isbndb.com/search-all.html?kw=0-13-307505-2}{0-13-307505-2}.
+
+\bibitem{haddad1991}
+\selectlanguageifdefined{english}
+\BibEmph{Haddad~R.A., Akansu~A.N.} A class of fast gaussian binomial filters
+  for speech and image processing~// \BibEmph{{IEEE} Transactions on Acoustics,
+  Speech and Signal Processing}. \BibDash
+\newblock 1991. \BibDash
+\newblock Vol.~39. \BibDash
+\newblock P.~723--727.
+
+\bibitem{gabor1994}
+\selectlanguageifdefined{english}
+\BibEmph{Feichtinger~Hans~G., Strohmer~Thomas}. Gabor Analysis and Algorithms.
+  \BibDash
+\newblock Birkhauser, 1994. \BibDash
+\newblock 496~p. \BibDash
+\newblock
+  ISBN:~\href{http://isbndb.com/search-all.html?kw=0-8176-3959-4}{0-8176-3959-4}.
+
+\bibitem{haar1910}
+\selectlanguageifdefined{english}
+\BibEmph{Faber~Georg}. Uber die orthogonalfunktionen des herrn haar~//
+  \BibEmph{Deutsche Math}. \BibDash
+\newblock 1910. \BibDash
+\newblock Vol.~19. \BibDash
+\newblock P.~104--112.
+
+\bibitem{morlet2012}
+\selectlanguageifdefined{english}
+Morlet wavelets in quantum mechanics~// \BibEmph{Quanta}. \BibDash
+\newblock 2012. \BibDash
+\newblock Vol.~1. \BibDash
+\newblock P.~58--70.
+
+\bibitem{ballard1981}
+\selectlanguageifdefined{english}
+\BibEmph{Ballard~Dana~H.} Generalizing the {H}ough transform to detect arbitary
+  shapes~// \BibEmph{Pattern regognition}. \BibDash
+\newblock 1981. \BibDash
+\newblock Vol.~13, no.~2. \BibDash
+\newblock P.~111--122.
+
+\bibitem{sobel2009}
+\selectlanguageifdefined{english}
+\BibEmph{Vincent~Rebeca, Folorunso~Olusegun}. A descriptive algorithm for sobel
+  image edge detection~// \BibEmph{Proceedings of Informing Science and {IT}
+  Education Conference {(InSITE)}}. \BibDash
+\newblock 2009. \BibDash
+\newblock Vol.~1. \BibDash
+\newblock P.~97--107.
+
+\bibitem{laplace2009}
+\selectlanguageifdefined{english}
+\BibEmph{Reuter~Martin, Biasotti~Silvia, Giorgi~Daniela}. Discrete
+  laplace–beltrami operators for shape analysis and segmentation~//
+  \BibEmph{Computers \& Graphics}. \BibDash
+\newblock 2009. \BibDash
+\newblock Vol.~33. \BibDash
+\newblock P.~381--390.
+
+\bibitem{prewitt2010}
+\selectlanguageifdefined{english}
+\BibEmph{Gao~Wenshuo, Yang~Lei, Zhang~Xiaoguang}. Based on soft-threshold
+  wavelet de-noising combining with prewitt operator edge detection
+  algorithm~// \BibEmph{Education Technology and Computer {(ICETC)}, 2010 2nd
+  International Conference on}. \BibDash
+\newblock 2010. \BibDash
+\newblock Vol.~5. \BibDash
+\newblock P.~155--162.
+
+\bibitem{canny1986}
+\selectlanguageifdefined{english}
+\BibEmph{Canny~John}. A computational approach to edge detection~//
+  \BibEmph{{IEEE} Trans. Pattern Analysis and Machine Intelligence}. \BibDash
+\newblock 1986. \BibDash
+\newblock Vol.~8. \BibDash
+\newblock P.~679--698.
+
+\bibitem{andreev2014}
+\selectlanguageifdefined{russian}
+\BibEmph{Андреев~А.~Ю., Бобков~С.~П.} Сегментация символов в изображении
+  модифицированных методом жука~// \BibEmph{Инженерно-технические науки}.
+  \BibDash
+\newblock 2014. \BibDash
+\newblock \CYRT.~1, {\cyr\textnumero}~37. \BibDash
+\newblock {\cyr\CYRS.}~85--88.
+
+\bibitem{surf2008}
+\selectlanguageifdefined{english}
+Speeded-up robust features {(SURF)}~/ Herbert~Bay, Andreas~Ess,
+  Tinne~Tuytelaars, Luc~Van~Gool~// \BibEmph{Computer Vision and Image
+  Understanding}. \BibDash
+\newblock 2008. \BibDash
+\newblock Vol. 110. \BibDash
+\newblock P.~346--359.
+
+\bibitem{sift2004}
+\selectlanguageifdefined{english}
+\BibEmph{Lowe~David}. Method and apparatus for identifying scale invariant
+  features in an image and use of same for locating an object in an image.
+  \BibDash
+\newblock 2004. \BibDash 03. \BibDash
+\newblock URL:
+  \BibUrl{http://www.patentlens.net/patentlens/patent/US_6711293/}.
+
+\bibitem{sokolov2013}
+\selectlanguageifdefined{russian}
+\BibEmph{Соколов~Е.~А.} Семинары по линейным классификаторам, глава 5: {Я}дра и
+  их применение в машинном обучении~// \BibEmph{ВМК МГУ}. \BibDash
+\newblock 2013. \BibDash
+\newblock {\cyr\CYRS.}~1--9.
+
+\bibitem{kmeans2003}
+\selectlanguageifdefined{english}
+\BibEmph{Likas~Aristidis, Vlassis~Nikos, Verbeek~Jacob~J.} The global k-means
+  clustering algorithm~// \BibEmph{Pattern Recognition}. \BibDash
+\newblock 2003. \BibDash
+\newblock Vol.~36. \BibDash
+\newblock P.~451--461.
+
+\bibitem{adaboost2009}
+\selectlanguageifdefined{english}
+\BibEmph{Rojas~Raul}. Adaboost and the super bowl of classifiers a tutorial
+  introduction to adaptive boosting~// \BibEmph{Computer Science Department}.
+  \BibDash
+\newblock 2009.
+
+\bibitem{svm1995}
+\selectlanguageifdefined{english}
+\BibEmph{Cortes~Corinna, Vapnik~Vladimir}. Support-vector networks~//
+  \BibEmph{Machine Learning}. \BibDash
+\newblock 1995. \BibDash
+\newblock Vol.~20. \BibDash
+\newblock P.~273--297.
+
+\bibitem{gost20999}
+\selectlanguageifdefined{russian}
+\BibEmph{Новиков~Ю.~И., Громова~Г.~Я.} ГОСТ 20999-83 {У}стройства числового
+  программного управления для металлообрабатывающего оборудования. \BibDash
+\newblock 1983.
+
+\bibitem{iso6983}
+\selectlanguageifdefined{english}
+{ISO} 6983-1:2009 {N}umerital control of machines - {P}rogram format and
+  definition of address words. \BibDash
+\newblock 1982.
+
+\end{thebibliography}
